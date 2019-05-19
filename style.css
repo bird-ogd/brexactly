@@ -1,0 +1,129 @@
+* {
+  background-color: #565759;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#uncat, #remain, #leave {
+  float: left;
+  width: 30.5%;
+  height: 60vh;
+  margin: 0.7%;
+  padding: 0.7%;
+  padding-top: 0px;
+  border-radius: 5px;
+}
+
+#bar {
+  width: 90%;
+  height: 55px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+#remain_bar {
+  float: left;
+  width: 50%;
+  height: 55px;
+  background-color: red;
+  -webkit-transition: width 0.8s;
+  transition: width 0.8s;
+}
+
+#leave_bar {
+  float: right;
+  width: 50%;
+  height: 55px;
+  background-color: blue;
+  -webkit-transition: width 0.8s;
+  transition: width 0.8s;
+}
+
+#remain_text {
+  float: left;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+#leave_text {
+  float: right;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#remain_perc {
+  background-color: transparent;
+}
+
+#leave_perc {
+  background-color: transparent;
+}
+
+#uncat {
+  background-image: url("background/q.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#remain {
+  background-image: url("background/eu.svg");
+}
+
+#leave {
+  background-image: url("background/uk.png");
+}
+
+img {
+  width: 26%;
+  margin: auto;
+  margin-left: 1%;
+  margin-top: 5px;
+  border: 8px solid white;
+  border-radius: 5px;
+
+}
+
+h1, p {
+  padding-top: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 40%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 800px) {
+  #uncat, #remain, #leave {
+    width: 97%;
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Brexactly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <h1>BREXACTLY</h1>
+  <p>Decide what a European Parliament vote for each party represents as a second referendum vote</p>
+  <p>Currently based on polling data from <a href="https://yougov.co.uk/topics/politics/articles-reports/2019/05/16/labour-and-tories-lose-majority-support-brexit-pro?utm_source=twitter&utm_medium=website_article&utm_campaign=European_VI_16_may_2019" target="_blank">YouGov (12-16 May 2019)</a></p>
+  <div id="bar">
+    <div id="remain_bar"><div id="remain_text">Remain <span id="remain_perc"></span>%</div></div>
+    <div id="leave_bar"><div id="leave_text">Leave <span id="leave_perc"></span>%</div></div>
+  </div>
+    <div class="tooltip "id="uncat" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div class="tooltiptext">Uncategorised</div>
+      <img src="logo/tory.png" draggable="true" ondragstart="drag(event)" id="tory">
+      <img src="logo/labour.png" draggable="true" ondragstart="drag(event)" id="labour">
+      <img src="logo/other.png" draggable="true" ondragstart="drag(event)" id="other">
+    </div>
+    <div class="tooltip" id="remain" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div class="tooltiptext">Remain parties</div>
+      <img src="logo/change.png" draggable="true" ondragstart="drag(event)" id="change">
+      <img src="logo/green.png" draggable="true" ondragstart="drag(event)" id="green">
+      <img src="logo/libdem.png" draggable="true" ondragstart="drag(event)" id="libdem">
+    </div>
+    <div class="tooltip" id="leave" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div class="tooltiptext">Leave parties</div>
+      <img src="logo/brexit.png" draggable="true" ondragstart="drag(event)" id="brexit">
+      <img src="logo/ukip.png" draggable="true" ondragstart="drag(event)" id="ukip">
+    </div>
+</body>
