@@ -1,10 +1,10 @@
 var results = [
-  ["tory", 8],
-  ["labour", 16],
-  ["libdem", 19],
-  ["green", 11],
+  ["tory", 9],
+  ["labour", 14],
+  ["libdem", 20],
+  ["green", 12],
   ["brexit", 32],
-  ["ukip", 4],
+  ["ukip", 3],
   ["change", 3],
   ["other", 7]
 ];
