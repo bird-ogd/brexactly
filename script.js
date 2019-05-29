@@ -1,12 +1,12 @@
 var results = [
-  ["tory", 9],
-  ["labour", 14],
-  ["libdem", 20],
-  ["green", 12],
-  ["brexit", 32],
-  ["ukip", 3],
-  ["change", 3],
-  ["other", 7]
+  ["tory", 9.1],
+  ["labour", 14.1],
+  ["libdem", 20.3],
+  ["green", 12.1],
+  ["brexit", 31.6],
+  ["ukip", 3.3],
+  ["change", 3.4],
+  ["other", 6.1]
 ];
 
 function allowDrop(ev) {
